@@ -1,0 +1,243 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEFA;
+  }
+  
+ nav li {
+    float: left;
+  }
+  
+ nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:navajowhite;
+  }
+
+  #info{
+    border: 0px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+  }
+
+  #ikzelf{
+    height: 300px;
+    width: 300px;
+  }
+
+  #logo{
+    height: 250px;
+    width: 250px;
+  }
+
+  main {
+    display:flex;
+    width:100%;
+    height:500px;
+  }
+  #links,#midden, #rechts {
+    width: 33%;
+    height: 100%;
+    border: 0px solid black;
+  }
+
+  #rechts {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #midden{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+body {
+  background-image: url("../images/achtergrond2.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+#paard1, #paard2{
+  display:none;
+  width:400px;
+}
+
+#ikzelf2{
+  width:500px;
+  
+}
+.footer {
+  display:block;
+}
+
+#info2{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+}
+
+#links2,#midden2, #rechts2 {
+  width: 33%;
+  height: 100%;
+  border: 0px solid black;
+}
+
+#rechts2 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#links2 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#midden2{
+
+  
+}
+
+#fotografeer1{
+width: 300px;
+height: 200px;
+}
+
+#fotografeer2{
+width: 300px;
+height: 200px;
+}
+
+#muziek1{
+width: 300px;
+height: 200px;
+}
+
+#muziek2{
+  width: 300px;
+  height: 200px;
+}
+
+#paard3{
+  width: 300px;
+  
+}
+
+#paard4{
+  width: 300px;
+
+}
+
+a{
+  color: #111;
+  text-decoration: none;
+}
+
+#links3,#midden3, #rechts3 {
+  width: 33%;
+  height: 100%;
+  border: 0px solid black;
+}
+
+#links3 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#rechts3{
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+
+#vlag1{
+  width: 300px;
+  height: 200px;
+}
+
+#vlag2{
+  width: 300px;
+  height: 200px;
+}
+
+#mondriaan{
+width: 300px;
+height: 250px;
+}
+
+#mondriaan2{
+width: 300px;
+height: 250px;
+}
+
+#insta{
+  width: 200px;
+}
+
+#linkedin{
+  width: 200px;
+}
+
+#links4,#midden4, #rechts4 {
+  width: 33%;
+  height: 100%;
+  border: 0px solid black;
+}
+
+#java{
+  width: 450px;
+}
+#html{
+  width: 450px;
+}
+
+#css{
+  width: 450px;
+}
+
+#python{
+  width: 450px;
+}
+
+#like {
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#dislike {
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
